@@ -11,3 +11,12 @@ userName = prompt("non hai inserito nessun nome, prova ancora");
     }
 }
 
+//capire se accesso è consentito
+
+for(let i=0; i<arrayInvited.length; i++){
+    if(arrayInvited[i]==userName) {
+        console.log("l'accesso è consentito! sei autorizzato");
+        break;
+    }
+}
+
