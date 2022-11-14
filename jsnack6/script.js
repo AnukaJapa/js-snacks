@@ -9,3 +9,10 @@ for(;;){
 break;
     }
 }
+
+//verificare se il numero di user è uguale con il numero random
+if(random == userNumber){
+    console.log("hai vinto!");
+}else {
+    console.log("hai perso!");
+}
