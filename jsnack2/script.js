@@ -24,16 +24,19 @@ break;
     }
 
 
-} else { //quindi se hai inserito parola non ci serve chidere di più
+} else {
+
+    //inserite entrambe le parole giustamente, adesso capire quale è più lunga e esci dal loop.
+
+    if(firstWord.length > secondWord.length){
+console.log("la prima parola è più lunga");
+    } else if(firstWord.length < secondWord.length){
+console.log("la seconda parola è più lunga");
+    } else {
+console.log("la lunghezza delle parole sono uguali");
+    }
+
     break;
 }
-
-
-
-        
-    
-
- 
-    
 
 }
