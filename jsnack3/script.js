@@ -17,7 +17,6 @@ if(isNaN(newNumber) || newNumber == "" || newNumber == " "){
 }
 }
 
-
 console.log(arrayNumbers);
 //fai la somma dei numeri
 let sum = arrayNumbers.reduce((previous,next) => {
@@ -37,6 +36,15 @@ for(let i =0; i<arrayNumbers.length; i++){
 console.log(`il valore massimo tra questi numeri da te inseriti è ${
     maximumValue}`);
 
+//trovare il valore minimo
+let minimumValue = arrayNumbers[0];
+for(let i =0; i<arrayNumbers.length; i++){
+    if(arrayNumbers[i]<minimumValue){
+        minimumValue = arrayNumbers[i]
+    }
+}
+console.log(`il valore minimo tra questi numeri da te inseriti è ${
+    minimumValue}`);
 
 
 
