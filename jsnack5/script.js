@@ -14,3 +14,6 @@ break;
 
 array.push(newNumber);
 }
+
+// stampare l'array nel console;
+console.log(array);
