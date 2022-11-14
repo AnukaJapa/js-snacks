@@ -1,4 +1,5 @@
-let array = [];
+let arrayDispari = [];
+let arrayPari = [];
 
 
 for(let i=0; i<6; i++){
@@ -14,9 +15,12 @@ break;
 }
 //verifica se il numero è dispari e se è inseriscilo nell'array
 if(newNumber%2!=0){
-    array.push(newNumber);
+    arrayDispari.push(newNumber);
+}else {
+    arrayPari.push(newNumber);
 }
 }
 
 // stampare l'array nel console;
-console.log(array);
+console.log(arrayDispari);
+console.log(arrayPari);
