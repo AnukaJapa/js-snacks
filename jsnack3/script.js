@@ -46,6 +46,11 @@ for(let i =0; i<arrayNumbers.length; i++){
 console.log(`il valore minimo tra questi numeri da te inseriti è ${
     minimumValue}`);
 
+//capire il  media
+
+let average = sum / arrayNumbers.length;
+console.log(`la media di questi numeri da te inseriti è ${average}`);
+
 
 
 
