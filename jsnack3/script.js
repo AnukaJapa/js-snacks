@@ -3,7 +3,6 @@ let arrayNumbers = [];
 
 for(let i =0; i<10; i++){    
 let newNumber = prompt(`inserisci il numero`);
-
 for(;;){
 if(isNaN(newNumber) || newNumber == "" || newNumber == " "){
     console.log("non hai inserito il numbero prova ancora");
@@ -11,13 +10,10 @@ if(isNaN(newNumber) || newNumber == "" || newNumber == " "){
 } else {
    newNumber = Number(newNumber);
    arrayNumbers.push(newNumber);
-   console.log(arrayNumbers);
    break;
 }
 }
 }
-
-console.log(arrayNumbers);
 //fai la somma dei numeri
 let sum = arrayNumbers.reduce((previous,next) => {
     return previous + next;
