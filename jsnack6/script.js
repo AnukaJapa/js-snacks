@@ -16,10 +16,14 @@ let userNumber = prompt("inserisci il tuo numero");
 for(;;){
     if(isNaN(userNumber) || userNumber=="" || userNumber==" "){
         userNumber = prompt("isnerisci il NUMERO!");
+    }else if(userName > random){
+        console.log("il tuo numero scelto dovrà essere nel range del random generato");
+        userNumber =prompt("il tuo numero scelto deve essere nel range del random generato");
     }else{
 break;
     }
 }
+
 
 //verificare se il numero di user è uguale con il numero random
 if(random == userNumber){
