@@ -23,14 +23,15 @@ if(isNaN(firstNumber) || firstNumber == ""){
 } 
 }
 
-//verificare se l'utente ha inserito il numero uguale
-
+//verificare se l'utente ha inserito numeri uguali dire che sono uguali se diversi rispondi con il massimo numero
 if(firstNumber != secondNumber){
     let maxNumber = Math.max(firstNumber,secondNumber);
     console.log(`Questo è il massimo numero da te inserito: ${maxNumber}`);
 } else {
     console.log("i numeri tu hai inserito sono uguali");
 }
+
+
 
 
 
