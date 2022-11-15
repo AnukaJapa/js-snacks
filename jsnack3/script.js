@@ -1,3 +1,6 @@
+//ESERCIZIO: user deve inserire 10 volte un numero e programma stampa la somma di tutti i numeri inseriti. 
+
+
 //software chiede 10 volte inserimento di un numero
 let arrayNumbers = [];
 
