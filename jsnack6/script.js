@@ -1,3 +1,9 @@
+//Fate generare un numero random da 0 a 10 al computer e chiedete all'utente di inserire un suo numero. se il numero scelto dall'utente è uguale al numero del computer informate l'utente che ha vinto, altrimenti ha perso. 
+//BONUS: al posto di giocare con numeri da 0 a 10, prima di giocare chiedete all'utente il numero massimo consentito (n) e fate estrarre a caso un numero da 0 a n, il resto ramane invariato. In generale infine se volete (sanificare l'input/ controllarlo)
+//Controllate input particolari, ossia dove è richiesto un numero, che sia a tutti gli effetti un numero, ecc ecc
+
+
+
 let numeroMassimo = prompt("determina il numero massimo fino a cui estrarre");
 //verifica se il numero inserito è valido
 for(;;){
