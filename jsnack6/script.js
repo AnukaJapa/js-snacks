@@ -2,8 +2,6 @@
 //BONUS: al posto di giocare con numeri da 0 a 10, prima di giocare chiedete all'utente il numero massimo consentito (n) e fate estrarre a caso un numero da 0 a n, il resto ramane invariato. In generale infine se volete (sanificare l'input/ controllarlo)
 //Controllate input particolari, ossia dove è richiesto un numero, che sia a tutti gli effetti un numero, ecc ecc
 
-
-
 let numeroMassimo = prompt("determina il numero massimo fino a cui estrarre");
 //verifica se il numero inserito è valido
 for(;;){
@@ -29,7 +27,6 @@ for(;;){
 break;
     }
 }
-
 
 //verificare se il numero di user è uguale con il numero random
 if(random == userNumber){
