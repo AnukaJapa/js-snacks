@@ -9,7 +9,7 @@
 let arrayDispari = [];
 let arrayPari = [];
 
-
+//chiedi di inserire il numero (finchè l'utente inserisce davvero il numero)
 for(let i=0; i<6; i++){
 
 let newNumber = prompt("inserisci il numero");
@@ -21,6 +21,7 @@ for(;;){
 break;
 }
 }
+
 //verifica se il numero è dispari e se è inseriscilo nell'array
 if(newNumber%2!=0){
     arrayDispari.push(newNumber);
